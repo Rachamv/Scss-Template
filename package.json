@@ -1,0 +1,34 @@
+{
+  "name": "scss-template",
+  "version": "1.0.0",
+  "description": "Template engine",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rachamv/Scss-Template.git"
+  },
+  "keywords": [
+    "Template",
+    "Bootstrap5",
+    "Sass",
+    "Scss"
+  ],
+  "author": "Racham Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rachamv/Scss-Template/issues"
+  },
+  "homepage": "https://github.com/Rachamv/Scss-Template#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha3",
+    "postcss": "^8.4.23"
+  }
+}
